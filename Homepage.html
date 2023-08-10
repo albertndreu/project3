@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+</head>
+
+
+<body>
+    <header>
+            <a href="#" class="logo"><img src="/images/logo1.jpeg"></a>
+            <div class="menu-btn"></div>
+
+            <div class="navigation">
+                <ul class="menu">
+                    <li class="menu-item"><a href="#">ΑΡΧΙΚΗ</a></li>
+                    <li class="menu-item"><a class="sub-btn" href="#">ΤΟ ΤΑΜΕΙΟ <i class="fas fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        <li class="sub-item"><a href="#">ΙΣΤΟΡΙΚΟ</a></li>
+                        <li class="sub-item"><a href="#">ΣΚΟΠΟΣ-ΚΛΑΔΟΙ ΑΣΦΑΛΙΣΗΣ</a></li>
+                        <li class="sub-item"><a href="#">ΔΙΟΙΚΗΣΗ</a></li>
+                        <li class="sub-item"><a href="#">ΚΑΤΑΣΤΑΤΙΚΟ</a></li>
+                        <li class="sub-item"><a href="#">ΕΣΩΤΕΡΙΚΟΣ ΚΑΝΟΝΙΣΜΟΣ</a></li>
+                        <li class="sub-item"><a href="#">ΕΝΗΜΕΡΩΤΙΚΑ ΦΥΛΛΑΔΙΑ</a></li>
+                        <li class="sub-item"><a href="#">ΝΟΜΟΘΕΣΙΑ</a></li>
+                        <li class="sub-item"><a href="#">ΑΝΤΙΠΡΟΣΩΠΟΙ ΑΝΑ ΝΟΜΟ</a></li>
+                    </ul>
+                    </li>
+                    <li class="menu-item"><a class="sub-btn" href="#">ΣΥΜΜΕΤΟΧΗ <i class="fas fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        <li class="sub-item"><a href="#">ΠΛΕΟΝΕΚΤΗΜΑΤΑ</a></li>
+                        <li class="sub-item"><a href="#">ΕΓΓΡΑΦΗ</a></li>
+                        <li class="sub-item"><a href="#">ΕΙΣΦΟΡΕΣ</a></li>
+                        <li class="sub-item"><a href="#">ΠΑΡΟΧΕΣ</a></li>
+                        <li class="sub-item"><a href="#">ΔΙΑΓΡΑΦΗ</a></li>
+                    </ul>
+                    </li>
+                    <li class="menu-item"><a class="sub-btn" href="#">ΟΙΚΟΝΟΜΙΚΑ ΣΤΟΙΧΕΙΑ <i class="fas fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        <li class="sub-item"><a href="#">ΕΠΕΝΔΥΣΕΙΣ</a></li>
+                        <li class="sub-item"><a href="#">ΑΜΟΙΒΑΙΟ ΚΕΦΑΛΑΙΟ</a></li>
+                        <li class="sub-item"><a href="#">ΚΑΝΟΝΙΣΜΟΣ ΕΠΕΝΔΥΣΕΩΝ</a></li>
+                        <li class="sub-item"><a href="#">ΕΠΕΝΔΥΤΙΚΗ ΕΠΙΤΡΟΠΗ</a></li>
+                        <li class="sub-item"><a href="#">ΙΣΟΛΟΓΙΣΜΟΙ</a></li>
+                        <li class="sub-item"><a href="#">ΑΝΑΛΟΓΙΣΤΙΚΕΣ ΜΕΛΕΤΕΣ</a></li>
+                        <li class="sub-item"><a href="#">ΠΡΟΥΠΟΛΟΓΙΣΜΟΙ</a></li>
+                    </ul>
+                    </li>
+                    <li class="menu-item"><a class="sub-btn" href="#">ΕΝΗΜΕΡΩΣΗ <i class="fas fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        <li class="sub-item"><a href="#">ΑΝΑΚΟΙΝΩΣΕΙΣ</a></li>
+                        <li class="sub-item"><a href="#">ΓΕΝΙΚΕΣ ΣΥΝΕΛΕΥΣΕΙΣ</a></li>
+                        <li class="sub-item"><a href="#">ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ</a></li>
+                        <li class="sub-item"><a href="#">ΤΟ ΕΡΓΟ ΤΟΥ ΤΑΜΕΙΟΥ</a></li>
+                    </ul></li>
+                    <li class="menu-item"><a href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+                </ul>
+            </div>
+            
+            <!--
+            <div class="navigation">
+                <div class="navigation-items">      
+            <a href="#">ΑΡΧΙΚΗ</a>
+            <a href="#">ΤΟ ΤΑΜΕΙΟ</a>
+            <a href="#">ΣΥΜΜΕΤΟΧΗ</a>
+            <a href="#">ΟΙΚΟΝΟΜΙΚΑ ΣΤΟΙΧΕΙΑ</a>
+            <a href="#">ΕΝΗΜΕΡΩΣΗ</a>
+            <a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+        </div>
+    </div>
+    -->
+<!--
+    <nav id="navigation" class="hidden md:flex md:space-x-4 ml-auto flex-col md:flex-row">
+          <div class="mt-4 flex flex-col md:flex-row">
+            <a class="px-2 inline-block no-underline transition-colors duration-300 ease-in-out hover:text-blue-500 active" href="index.html">ΑΡΧΙΚΗ</a>
+            <a class="px-2 inline-block no-underline transition-colors duration-300 ease-in-out hover:text-blue-500" href="company.html">Η ΕΤΑΙΡΕΙΑ <b class="font-bold"></b></a>
+            <a class="px-2 inline-block no-underline transition-colors duration-300 ease-in-out hover:text-blue-500" href="#ourWork">ΕΡΓΑ</a>
+            <a class="px-2 inline-block no-underline transition-colors duration-300 ease-in-out hover:text-blue-500 mr-2" href="#strataSection">ΣΤΡΑΤΑ Α.Τ.Ε</a>
+            <a href="#uniqueSection"> <img class="h-6 w-auto" src="images/logoHotel.png" alt="Logo"></a>
+          </div>
+          <div class="flex flex-col items-start">
+            <a class="px-2 inline-block no-underline transition-colors duration-300 ease-in-out " href="tel:2106136552"><i class="fas fa-phone"></i> 210-6136552</a>
+            <a class="px-2 inline-block no-underline transition-colors duration-300 ease-in-out " href="mailto:info@inter-tech.gr?subject=ΘΕΜΑ&amp;body=Το%20Μήνυμα%20σου!"><i class="fas fa-envelope"></i> info@inter-tech.gr</a>
+          </div>
+        </nav>
+<nav class="navbar">
+    <a href="#">ΑΡΧΙΚΗ</a>
+    <a href="#">ΤΟ ΤΑΜΕΙΟ</a>
+    <a href="#">ΣΥΜΜΕΤΟΧΗ</a>
+    <a href="#">ΟΙΚΟΝΟΜΙΚΑ ΣΤΟΙΧΕΙΑ</a>
+    <a href="#">ΕΝΗΜΕΡΩΣΗ</a>
+    <a href="">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+</nav>
+-->
+    </header>
+<section class ="home">
+    <div class="slideshow-container">
+            <img class="img-slide active" data-aos="slide-down"data-aos-duration="2500" src="https://www.ot.gr/wp-content/uploads/2023/07/ot_stockexchange-768x450-3.png">
+            <img class="img-slide" src="/images/2.jpeg">
+            <img class="img-slide" src="/images/1.jpeg">
+            </div>
+        <div class="content active">
+                <div class="text-center">
+                    <div class="image1">
+                    <a href="http://www.alphatrust.gr/amivaia-kefalaia/tea-astinomikwn-purosvestwn-limenikwn-mikto/"
+                        target="_blank">
+                        <img src="/images/pieChart.webp"
+                            style="color: rgb(255, 0, 0); max-width: 150px !important; width: 92.5538px; height: 100px;" alt="">
+                    </a>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="http://www.alphatrust.gr/amivaia-kefalaia/tea-astinomikwn-purosvestwn-limenikwn-mikto/" target="_blank"
+                        class="text1">
+                        Το Αμοιβαίο Κεφάλαιο του Ταμείου
+                    </a>
+                </div>
+                    <div class="text-center">
+                        <div class="image2">
+                        <a href="https://www.naftemporiki.gr/amoivaia/?id=TAPLM.MTF" target="_blank">
+                            <img src="/images/bar-chart.webp"
+                                style="color: rgb(255, 0, 0); max-width: 150px !important; width: 92.5538px; height: 92.5538px;" alt="">
+                        </a>
+                        </div>
+                        <br>
+                        <br>
+                        <a href="https://www.naftemporiki.gr/amoivaia/?id=TAPLM.MTF" target="_blank" class="text2">
+                            Ημερήσια Εξέλιξη τιμών
+                        </a>
+                    </div>
+                </div>
+            <div class="content">
+                <div class="text-center">
+                    <div class="image1">
+                        <a href="symmetoxi/paroxes.html">
+                            <img src="/images/safe.webp"
+                                style="color: rgb(255, 0, 0); max-width: 150px !important; width: 92.5538px; height: 92.5538px;" alt=""
+                                data-pagespeed-url-hash="215541236" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </a>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="symmetoxi/paroxes.html" class="text1">
+                        Παροχή Εφάπαξ
+                    </a>
+                </div>
+                    <div class="text-center">
+                        <div class="image2">
+                            <a href="symmetoxi/paroxes.html#allilegii">
+                                <img src="/images/if_Group_Meeting_Dark_.png"
+                                    style="color: rgb(255, 0, 0); max-width: 150px !important; width: 92.5538px; height: 92.5538px;" alt=""
+                                    data-pagespeed-url-hash="1278961836" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                            </a>
+                        </div>
+                        <br>
+                        <br>
+                        <a href="symmetoxi/paroxes.html#allilegii" class="text2">
+                            Παροχή Αλληλεγγύης
+                        </a>
+                        </div>
+                        <div class="text-center">
+                            <div class="image3">
+                                <a href="symmetoxi/paroxes.html#allilegii">
+                                    <img src="/images/if_paper_add_blue_61648.png"
+                                        style="color: rgb(255, 0, 0); max-width: 150px !important; width: 92.5538px; height: 92.5538px;" alt=""
+                                        data-pagespeed-url-hash="1278961836" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </a>
+                            </div>
+                            <br>
+                            <br>
+                            <a href="symmetoxi/paroxes.html#ugeia" class="text3">
+                                Παροχές Υγείας
+                            </a>
+                    </div>
+            </div>
+            <div class="content">
+                <div class="text-center">
+                    <div class="image1">
+                        <a href="/symmetoxi/eisfores.html" target="_blank">
+                            <img src="/images/vault.png"
+                                style="color: rgb(255, 0, 0); max-width: 150px !important; width: 108.462px; height: 108.462px;" alt=""
+                                data-pagespeed-url-hash="2742372634" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </a>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="/symmetoxi/eisfores.html" target="_blank" class="text1">
+                        Εισφορές
+                    </a>
+                </div>
+                <div class="text-center">
+                    <div class="image2">
+                        <a href="https://portal.teaapl.gr" target="_blank">
+                            <img src="/images/checkout.png"
+                                style="color: rgb(255, 0, 0); max-width: 150px !important; width: 92.5538px; height: 92.5538px;" alt=""
+                                data-pagespeed-url-hash="3598934364" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </a>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="https://portal.teaapl.gr" target="_blank" class="text2">
+                        Ο Ατομικός Λογαριασμός μου
+                    </a>
+                </div>
+            </div>
+    <div class="media-icons" data-aos="zoom-in"data-aos-duration="2500">
+        
+        <a   href="tel:2105202638"><i class="fas fa-phone"></i> 2105202638</a>
+        <a href="https://goo.gl/maps/1Fcqq3EAHgygP2GA9"><i class="fa fa-map-marker"></i> Τ.Ε.Α. Α.Π.Λ.
+            Βερανζέρου 30 (4ος οροφος) Αθήνα 10432</a>
+    </div>
+    <div class="slider-navigation">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        
+
+    </div>
+</section>
+
+<div id="t3-mainbody" class="container t3-mainbody">
+    <div class="row">
+        <!-- MAIN CONTENT -->
+        <div id="t3-content" class="t3-content col-xs-12 col-md-6  col-md-push-3">
+            <div class="item-page clearfix">
+                <!-- Article -->
+                <article itemscope="" itemtype="http://schema.org/Article">
+                    <meta itemprop="inLanguage" content="el-GR">
+                    <!-- Aside -->
+                    <!-- //Aside -->
+                    <section class="article-content clearfix" data-aos="zoom-in"data-aos-duration="2500"  itemprop="articleBody">
+                        <p style="text-align: center;"><span style="font-size: 14pt; color: #ff0000;"></span></p>
+                        <p style="text-align: center;"><a
+                                href="/images/pdf/anakinoseis/leitourgia-grafeiou-mina-august-2023.pdf"
+                                target="_blank"><span style="font-size: 14pt; color: blue;"><strong>ΛΕΙΤΟΥΡΓΙΑ
+                                        ΓΡΑΦΕΙΟΥ ΑΥΓΟΥΣΤΟΣ 2023</strong></span></a></p>
+                        <p style="text-align: center;"><span style="font-size: 14pt; color: #ff0000;"><a
+                                    href="/enimerosi/anakoinoseis.html" target="_blank" rel="noopener noreferrer"
+                                    style="color: blue;"
+                                    title="ΠΑΤΗΣΤΕ ΕΔΩ ΓΙΑ ΝΑ ΜΕΤΑΒΕΙΤΕ ΣΤΗΝ ΑΝΑΚΟΙΝΩΣΗ"><strong>ΑΝΑΚΟΙΝΩΣΗ ΓΙΑ
+                                        ΦΟΡΟΛΟΓΙΚΕΣ ΒΕΒΑΙΩΣΕΙΣ Τ.Ε.Α.Α.Π.Λ. 2022</strong></a></span></p>
+                        <!--
+<p style="text-align: center;"><span style="font-size: 14pt;"><a title="ΠΑΤΗΣΤΕ ΕΔΩ ΓΙΑ ΝΑ ΜΕΤΑΒΕΙΤΕ ΣΤΗΝ ΑΝΑΚΟΙΝΩΣΗ" href="/enimerosi/anakoinoseis/196-geniko-psifodeltio-eklogon-2019.html" target="_blank" rel="noopener noreferrer"><strong>ΓΕΝΙΚΟ ΨΗΦΟΔΕΛΤΙΟ ΕΚΛΟΓΩΝ 2019</strong></a></span></p>
+<p style="text-align: center;">&nbsp;</p>
+-->
+                        <p>&nbsp;</p>
+                        <p style="text-decoration: underline; color: blue;"><b>Σύντομο Ιστορικό - Σκοπός:</b></p>
+                        <p style="color: black;">Το <b>Ταμείο Επαγγελματικής Ασφάλισης Αστυνομικών Πυροσβεστών Λιμενικών</b>
+                            <b>(Τ.Ε.Α.Α.Π.Λ.)</b> είναι <b><span
+                                    style="text-decoration: underline;">αυτοδιαχειριζόμενο</span></b>, Νομικό Πρόσωπο
+                            Ιδιωτικού Δικαίου μη κερδοσκοπικού χαρακτήρα, που συστάθηκε τον Σεπτέμβριο του 2009 (ΦΕΚ
+                            Αρ.Φ.1903τΒ/4.9.2009 όπως τροπ. με την Αρ. Φ.51020/7334/157/04.04.2013) για τους
+                            υπηρετούντες στα <b>Σώματα Ασφαλείας</b>, σύμφωνα με τις διατάξεις του Ν.3029/2002 και
+                            αποτελεί την μετεξέλιξη του Λογαριασμού Αλληλοβοήθειας μελών της Διεθνούς Ένωσης Αστυνομικών
+                            (Λ.Α.Μ.Δ.Ε.Α.) που ιδρύθηκε το 1994.</p>
+                        <p style="color: black;">Εποπτεύεται από το Υπουργείο Απασχόλησης και Κοινωνικής Προστασίας, την Εθνική Αναλογιστική
+                            Αρχή και την Επιτροπή Κεφαλαιαγοράς.</p>
+                        <p style="color: black;"><b>Λειτουργεί συμπληρωματικά στην υποχρεωτική ασφάλιση</b> και αποτελείται από δύο αυτοτελείς
+                            κλάδους:</p>
+                        <p style="color: black;">α) <b>τον Κλάδο Εφάπαξ</b> ο οποίος χορηγεί εφάπαξ βοηθήματα, είτε μετά τα 20 έτη ασφάλισης
+                            είτε με την συμπλήρωση του 50ου έτους της ηλικίας, με χρόνο ασφάλισης στο Ταμείο 10 έτη είτε
+                            με την συμπλήρωση του 55ου έτους της ηλικίας, με χρόνο ασφάλισης στο Ταμείο 5 έτη είτε και
+                            σε περίπτωση αποστρατείας με 1 έτος ασφάλισης στο Ταμείο.</p>
+                        <p style="color: black;">β) τον <b>Κλάδο Αλληλεγγύης</b> ο οποίος σε περίπτωση ατυχήματος που θα προκαλέσει μόνιμη
+                            ολική ανικανότητα χορηγεί βοήθημα ύψους <b>10.000€</b> και σε περίπτωση θανάτου βοήθημα
+                            ύψους <b>15.000€.</b> Σε περίπτωση νοσηλείας σε νοσοκομείο ή κλινική για διάστημα άνω των 9
+                            ημερών χορηγεί βοήθημα <b>20€ για κάθε επόμενη μέρα</b>.</p>
+                        <p style="color: black;">Η <b>μηνιαία εισφορά</b> που καταβάλουν τα μέλη κυμαίνεται από <b>30€ έως 500€</b> και
+                            κρατείται από τη μισθοδοσία. Το μέλος μπορεί να τη μεταβάλει, με αίτησή του αυξάνοντας ή
+                            μειώνοντάς την εντός των ανωτέρω ορίων, μια φορά το χρόνο.</p>
+                        <p style="color: black;">Από τη μηνιαία εισφορά <span style="text-decoration: underline;">4,5€ πιστώνονται στον κλάδο
+                                αλληλεγγύης</span>. Από το υπόλοιπο ποσό, ποσοστό <span
+                                style="text-decoration: underline;">6% χρηματοδοτεί τα Ίδια Κεφάλαια</span> του ταμείου
+                            και ποσοστό <span style="text-decoration: underline;">94% πιστώνεται στην ατομική
+                                μερίδα</span> του μέλους στον Κλάδο Εφάπαξ.</p>
+                    </section>
+
+
+                    <!-- footer -->
+                    <!-- //footer -->
+
+
+
+
+                </article>
+                <!-- //Article -->
+
+
+            </div>
+        </div>
+        <!-- //MAIN CONTENT -->
+
+        <!-- SIDEBAR 1 -->
+        <div class="t3-sidebar t3-sidebar-1 col-xs-6  col-md-3  col-md-pull-6 ">
+            <div class="t3-module module " id="Mod120">
+                <div class="module-inner">
+                    <div class="module-ct">
+
+                        
+                            <!--
+<p><a href="/enimerosi/anakoinoseis/195-ekloges-2019.html"><img style="max-width: 202px; width: 100%; display: block; margin-left: auto; margin-right: auto;" src="/images/new/ekloges-2019.jpg" alt="ekloges-2019" /></a></p>
+-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //SIDEBAR 1 -->
+
+        <!-- SIDEBAR 2 -->
+        
+        <!-- //SIDEBAR 2 -->
+
+    </div>
+</div>
+
+<section class="cards">
+    <h3 class="module-title ">Τελευταίες Ανακοινώσεις:</h3>
+    <div class="card" data-aos="slide-right"data-aos-duration="2500">
+        <a href="/enimerosi/anakoinoseis/218-leitourgia-grafeiou-mina-august-2023.html" itemprop="url" class="item-title">
+            <span itemprop="name">
+                ΑΝΑΚΟΙΝΩΣΗ ΛΕΙΤΟΥΡΓΙΑΣ ΓΡΑΦΕΙΩΝ ΤΕΑΑΠΛ ΓΙΑ ΤΟ ΜΗΝΑ ΑΥΓΟΥΣΤΟ 2023 </span>
+        </a>
+        <dd class="published hasTooltip" title="" data-original-title="Δημοσιεύθηκε :  ">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2023-08-02T09:00:53+00:00" itemprop="datePublished">
+                02 Αυγούστου 2023
+                <meta itemprop="datePublished" content="2023-08-02T09:00:53+00:00">
+                <meta itemprop="dateModified" content="2023-08-02T09:00:53+00:00">
+            </time>
+        </dd>
+    </div>
+    <div class="card"data-aos="slide-down"data-aos-duration="2500" class="text-black">
+        <a href="/enimerosi/anakoinoseis/217-ektakti-anakoinosi-23-06-2023.html" itemprop="url" class="item-title">
+            <span itemprop="name">
+                ΕΚΤΑΚΤΗ ΑΝΑΚΟΙΝΩΣΗ </span>
+        </a>
+        
+        <dd class="published hasTooltip" title="" data-original-title="Δημοσιεύθηκε :  ">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2023-06-23T01:00:56+00:00" itemprop="datePublished">
+                23 Ιουνίου 2023
+                <meta itemprop="datePublished" content="2023-06-23T01:00:56+00:00">
+                <meta itemprop="dateModified" content="2023-06-23T01:00:56+00:00">
+            </time>
+        </dd>
+    </div>
+    <div class="card" data-aos="slide-up"data-aos-duration="2500">
+        <a href="/enimerosi/anakoinoseis/216-mi-ananeosi-ekptoseon-omilou-evroklinikis-sta-meli-tou-t-e-a-a-p-l.html"
+            itemprop="url" class="item-title">
+            <span itemprop="name">
+                Μη ανανέωση Εκπτώσεων Ομίλου Ευρωκλινικής στα μέλη του Τ.Ε.Α.Α.Π.Λ. </span>
+        </a>
+        
+        <dd class="published hasTooltip" title="" data-original-title="Δημοσιεύθηκε :  ">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2023-05-16T01:00:56+00:00" itemprop="datePublished">
+                16 Μαΐου 2023
+                <meta itemprop="datePublished" content="2023-05-16T01:00:56+00:00">
+                <meta itemprop="dateModified" content="2023-05-16T01:00:56+00:00">
+            </time>
+        </dd>
+    </div>
+    <div class="card"data-aos="slide-left"data-aos-duration="2500">
+        <a href="/enimerosi/anakoinoseis/215-anakoinosi-gia-diakopi-revmatos.html" itemprop="url" class="item-title">
+            <span itemprop="name">
+                ΑΝΑΚΟΙΝΩΣΗ ΓΙΑ ΔΙΑΚΟΠΗ ΡΕΥΜΑΤΟΣ </span>
+        </a>
+        
+        <dd class="published hasTooltip" title="" data-original-title="Δημοσιεύθηκε :  ">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2023-05-12T01:00:53+00:00" itemprop="datePublished">
+                12 Μαΐου 2023
+                <meta itemprop="datePublished" content="2023-05-12T01:00:53+00:00">
+                <meta itemprop="dateModified" content="2023-05-12T01:00:53+00:00">
+            </time>
+        </dd>
+    </div>
+    <div class="card"data-aos="slide-up"data-aos-duration="2500">
+        <a href="/enimerosi/anakoinoseis/214-anakoinosi-gia-forologikes-bebaioseis-teaapl-2022.html" itemprop="url"
+            class="item-title">
+            <span itemprop="name">
+                ΑΝΑΚΟΙΝΩΣΗ ΓΙΑ ΦΟΡΟΛΟΓΙΚΕΣ ΒΕΒΑΙΩΣΕΙΣ ΤΕΑΑΠΛ 2022 </span>
+        </a>
+        
+        <dd class="published hasTooltip" title="" data-original-title="Δημοσιεύθηκε :  ">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2023-04-04T09:00:53+00:00" itemprop="datePublished">
+                04 Απριλίου 2023
+                <meta itemprop="datePublished" content="2023-04-04T09:00:53+00:00">
+                <meta itemprop="dateModified" content="2023-04-04T09:00:53+00:00">
+            </time>
+        </dd>
+    </div>
+    <div class="card"data-aos="slide-left"data-aos-duration="2500">
+        <a href="/enimerosi/anakoinoseis/212-leitourgia-grafeiou-kata-tin-eortastiki-periodo-12-2022.html" itemprop="url"
+            class="item-title">
+            <span itemprop="name">
+                ΑΝΑΚΟΙΝΩΣΗ ΛΕΙΤΟΥΡΓΙΑΣ ΓΡΑΦΕΙΩΝ ΤΕΑΑΠΛ ΓΙΑ ΤΗΝ ΕΟΡΤΑΣΤΙΚΗ ΠΕΡΙΟΔΟ </span>
+        </a>
+        
+        <dd class="published hasTooltip" title="" data-original-title="Δημοσιεύθηκε :  ">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2022-12-23T12:42:43+00:00" itemprop="datePublished">
+                23 Δεκεμβρίου 2022
+                <meta itemprop="datePublished" content="2022-12-23T12:42:43+00:00">
+                <meta itemprop="dateModified" content="2022-12-23T12:42:43+00:00">
+            </time>
+        </dd>
+    </div>
+
+</section>
+<!--
+<section class="spot">
+<div class="ts-content-mid">
+    <div class="spotlight">
+       // SPOTLIGHT
+        <div class="t3-spotlight t3-content-mid  row">
+            <div class=" col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="t3-module module intro-title " id="Mod118">
+                    <div class="module-inner">
+                        <h3 class="module-title "><span class="title-head">Σημαντικά μεγέθη του Ταμείου</span></h3>
+                        <div class="module-ct">
+
+                            <div class="custom intro-title">
+                                <p><img src="/images/chart.jpeg" class="img-responsive"
+                                        data-pagespeed-url-hash="430550530"
+                                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="t3-module module " id="Mod119">
+                    <div class="module-inner">
+                        <h3 class="module-title "><span class="title-head"> </span></h3>
+                        <div class="module-ct">
+                            <div class="facts-wrapper">
+                                <div class="col-md-6 ts-facts">
+                                    <div class="ts-facts-icon">
+                                        <i class="fa fa-users"></i>
+                                    </div>
+                                    <div class="ts-facts-content">
+                                        <h2 class="ts-facts-num counter">6.661</h2>
+                                        <h3 class="ts-facts-title">ασφαλισμένοι</h3>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 ts-facts">
+                                    <div class="ts-facts-icon">
+                                        <i class="fa fa-money"></i>
+                                    </div>
+                                    <div class="ts-facts-content">
+                                        <h2 class="ts-facts-num">26.482.283 €</h2>
+                                        <h3 class="ts-facts-title">σύνολο εφάπαξ ατομικών λογαριασμών</h3>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 ts-facts">
+                                    <div class="ts-facts-icon">
+                                        <i class="fa fa-money"></i>
+                                    </div>
+                                    <div class="ts-facts-content">
+                                        <h2 class="ts-facts-num " >987.550 €</h2>
+                                        <h3 class="ts-facts-title">ποσό παροχών αλληλεγγύης</h3>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 ts-facts">
+                                    <div class="ts-facts-icon">
+                                        <i class="fa fa-money"></i>
+                                    </div>
+                                    <div class="ts-facts-content">
+                                        <h2 class="ts-facts-num">8.467.993 €</h2>
+                                        <h3 class="ts-facts-title">ποσό παροχών εφάπαξ</h3>
+
+                                    </div>
+                                </div>
+                            </div>//facts
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+-->
+<section>
+    <h3 class="modulet-title" data-text="Σημαντικά μεγέθη του Ταμείου" data-aos="slide-right"data-aos-duration="2500"><span>Σημαντικά μεγέθη του Ταμείου</span></h3>
+    <div class="custom-img">
+        <p><img src="/images/chart.jpeg" class="img-responsive"data-aos="zoom-in"data-aos-duration="2500" data-pagespeed-url-hash="430550530"
+                onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></p>
+
+    <div class="facts-wrapper">
+        <div class="ts-facts" data-aos="slide-right"data-aos-duration="2500">
+            <div class="ts-facts-icon">
+                <i class="fa fa-users"></i>
+            </div>
+            <div class="ts-facts-content">
+                <h2 class="ts-facts-num ">6.661</h2>
+                <h3 class="ts-facts-title">ασφαλισμένοι</h3>
+            </div>
+        </div>
+        <div class="ts-facts" data-aos="slide-right"data-aos-duration="2500">
+            <div class="ts-facts-icon">
+                <i class="fa fa-money"></i>
+            </div>
+            <div class="ts-facts-content">
+                <h2 class="ts-facts-num">26.482.283 €</h2>
+                <h3 class="ts-facts-title">σύνολο εφάπαξ ατομικών λογαριασμών</h3>
+            </div>
+        </div>
+        <div class="ts-facts" data-aos="slide-right"data-aos-duration="2500">
+            <div class="ts-facts-icon">
+                <i class="fa fa-money"></i>
+            </div>
+            <div class="ts-facts-content">
+                <h2 class="ts-facts-num ">987.550 €</h2>
+                <h3 class="ts-facts-title">ποσό παροχών αλληλεγγύης</h3>
+            </div>
+        </div>
+        <div class="ts-facts"data-aos="slide-up"data-aos-duration="2500">
+            <div class="ts-facts-icon">
+                <i class="fa fa-money"></i>
+            </div>
+            <div class="ts-facts-content">
+                <h2 class="ts-facts-num">8.467.993 €</h2>
+                <h3 class="ts-facts-title">ποσό παροχών εφάπαξ</h3>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<div class="timeline">
+    <h2>Σημαντικοί Σταθμοί στην Ιστορία του Ταμείου</h2>
+    <div class="timeline-box left-timeline-box">
+        <div class="box">
+            <small>2017</small>
+        <p><span>Έναρξη καταβολής εισφορών από Λιμενικούς</span></p>
+    </div>
+</div>
+<div class="timeline-box right-timeline-box">
+    <div class="box">
+        <small>2016</small>
+        <p><span>Σύσταση Αμοιβαίου Κεφαλαίου κλάδου Εφάπαξ</span></p>
+    </div>
+</div>
+<div class="timeline-box left-timeline-box">
+    <div class="box">
+        <small>2014</small>
+        <p><span>Έναρξη καταβολής εισφορών από Πυροσβέστες</span></p>
+    </div>
+</div>
+<div class="timeline-box right-timeline-box">
+    <div class="box">
+        <small>2009</small>
+        <p><span>Ίδρυση ΤΕΑΕΤΔΕΑ</span></p>
+    </div>
+</div>
+<div class="timeline-box left-timeline-box">
+    <div class="box">
+        <small>1994</small>
+        <p><span>Ίδρυση ΛΑΜΔΕΑ</span></p>
+
+    </div>
+</div>
+</div>
+<section class="t3-copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 copyright ">
+                <div class="custom white_links">
+                    <p>Copyright © 2017 Τ.Ε.Α. Α.Π.Λ. ~ Ν.Π.Ι.Δ. All Rights Reserved.</p>
+                    <p>
+                        <a href="/images/pdf/2018/Όροι Χρήσης του Διαδικτυακού Τόπου του TEA APL.PDF"
+                            target="_blank">Όροι Χρήσης</a> | <a href="/images/pdf/2018/Πολιτική Cookies για Ταμεία.pdf"
+                            target="_blank">Πολιτική Cookies</a><br>
+                        <a href="/images/pdf/2018/ΤΕΑΑΛΠ - ΕΝΗΜΕΡΩΣΗ ΕΠΕΞΕΡΓΑΣΙΑΣ ΠΡΟΣΩΠΙΚΩΝ ΔΕΔΟΜΕΝΩΝ.pdf"
+                            target="_blank">Πολιτική Απορρήτου Ενημέρωση Επεξεργασίας Προσωπικών Δεδομένων</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 pull-right">
+                <div class="footer-menu ">
+                    <div class="custom">
+                        <p><a target="_blank" href="http://www.pipc.gr/">Prudential Informatics</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+const menuBtn = document.querySelector(".menu-btn");
+const navigation = document.querySelector(".navigation");
+
+
+menuBtn.addEventListener("click", ()=>{
+    menuBtn.classList.toggle("active");
+    navigation.classList.toggle("active");
+});
+
+
+const btns = document.querySelectorAll(".nav-btn");
+const slides = document.querySelectorAll(".img-slide"); 
+const contents = document.querySelectorAll(".content");
+
+
+var slideNav = function(manual){
+    btns.forEach((btn) =>{
+        btn.classList.remove("active");
+    });
+
+    slides.forEach((slide) => {
+        slide.classList.remove("active");
+    });
+
+    contents.forEach((content) => {
+        content.classList.remove("active");
+    });
+
+    btns[manual].classList.add("active");
+    slides[manual].classList.add("active");
+    contents[manual].classList.add("active");
+}
+
+btns.forEach((btn, i)=>{
+    btn.addEventListener("click", ()=>{
+        slideNav(i);
+    });
+});
+
+ var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var slides = document.getElementsByClassName("img-slide");
+        var buttons = document.getElementsByClassName("nav-btn");
+        var i;
+
+        for (i = 0; i < slides.length; i++) {
+            slides[i].classList.remove("active"); // Remove active class from all images
+            buttons[i].classList.remove("active"); // Remove active class from all buttons
+            
+        }
+
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+
+        slides[slideIndex - 1].classList.add("active"); // Add active class to the current image
+        buttons[slideIndex - 1].classList.add("active");
+        
+        setTimeout(showSlides, 7000); 
+    }
+
+
+
+
+</script>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: "true"
+    });
+</script>
+</body>
+
+</html>
